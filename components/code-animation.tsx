@@ -9,7 +9,7 @@ export default function CodeAnimation() {
 
   const codeLines = [
     "function greet() {",
-    "  console.log('Hello, I'm Ludaro!');",
+    "  console.log('Hello, I'm Appercy!');",
     "  return {",
     "    skills: ['JS', 'TS', 'React', 'Next.js'],",
     "    passion: 'Web & FiveM Development'",
@@ -47,7 +47,7 @@ export default function CodeAnimation() {
           <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
           <div className="w-3 h-3 rounded-full bg-green-500"></div>
         </div>
-        <div className="ml-4 text-xs text-gray-400">ludaro.js</div>
+        <div className="ml-4 text-xs text-gray-400">Appercy.js</div>
       </div>
       <div className="code-body p-4 font-mono text-sm">
         {codeLines.slice(0, currentLine + 1).map((line, index) => (

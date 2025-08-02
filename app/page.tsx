@@ -89,7 +89,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <Games />
+        {/* <Games /> */}
         <Contact />
         <Impressum />
         <Footer />

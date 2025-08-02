@@ -34,13 +34,13 @@ const translations = {
     // Skills
     "skills.title": "My Skills",
     "skills.languages": "Programming Languages",
-    "skills.frameworks": "Frameworks & Libraries",
+    "skills.frameworks": "Frameworks",
     "skills.tools": "Tools & Technologies",
     "skills.currently": "Currently Learning",
 
     // Projects
-    "projects.title": "My Projects",
-    "projects.wiki.title": "Ludaro Wiki",
+    "projects.title": "My Github",
+    "projects.wiki.title": "Appercy Wiki",
     "projects.wiki.description":
       "My personal wiki where I explain how to start with FiveM and save useful code snippets.",
     "projects.wiki.cta": "Visit Wiki",
@@ -56,14 +56,14 @@ const translations = {
 
     // Contact
     "contact.title": "Get In Touch",
-    "contact.description": "Feel free to reach out to me via email, Discord, or check out my GitHub profile.",
+    "contact.description": "Feel free to reach out to me via email, Discord, or GitHub.",
     "contact.email": "Email",
     "contact.github": "GitHub",
     "contact.discord": "Discord",
 
     // Footer
-    "footer.copyright": "© 2024 Ludaro. All rights reserved.",
-    "footer.meme": "Powered by coffee and memes",
+    "footer.copyright": "© 2024 Appercy. All rights reserved.",
+    "footer.meme": "Powered by Tea and memes",
 
     // Easter Eggs
     "easter.hint": "Try the Konami code or type 'rick'",
@@ -73,7 +73,7 @@ const translations = {
     "hero.greeting": "Hallo, ich bin",
     "hero.title": "IT-Spezialist & Entwickler",
     "hero.subtitle": "Begeistert von Webtechnologien, Gaming und Memes",
-    "hero.cta": "Lerne mich kennen",
+    "hero.cta": "Lern mich kennen",
 
     // About
     "about.title": "Über Mich",
@@ -90,13 +90,13 @@ const translations = {
     // Skills
     "skills.title": "Meine Fähigkeiten",
     "skills.languages": "Programmiersprachen",
-    "skills.frameworks": "Frameworks & Bibliotheken",
+    "skills.frameworks": "Frameworks",
     "skills.tools": "Tools & Technologien",
     "skills.currently": "Aktuell am Lernen",
 
     // Projects
-    "projects.title": "Meine Projekte",
-    "projects.wiki.title": "Ludaro Wiki",
+    "projects.title": "Mein Github",
+    "projects.wiki.title": "Appercy Wiki",
     "projects.wiki.description":
       "Mein persönliches Wiki, in dem ich erkläre, wie man mit Developement in FiveM beginnt",
     "projects.wiki.cta": "Wiki besuchen",
@@ -112,14 +112,14 @@ const translations = {
 
     // Contact
     "contact.title": "Kontakt",
-    "contact.description": "Kontaktiere mich gerne per E-Mail, Discord oder schau dir mein GitHub-Profil an.",
+    "contact.description": "Kontaktiere mich gerne per E-Mail, Discord oder GitHub.",
     "contact.email": "E-Mail",
     "contact.github": "GitHub",
     "contact.discord": "Discord",
 
     // Footer
-    "footer.copyright": "© 2024 Ludaro. Alle Rechte vorbehalten.",
-    "footer.meme": "Angetrieben durch Kaffee und Memes",
+    "footer.copyright": "© 2024 Appercy. Alle Rechte vorbehalten.",
+    "footer.meme": "Angetrieben durch Tee und Memes",
 
     // Easter Eggs
     "easter.hint": "Versuche den Konami-Code oder tippe 'rick'",

@@ -8,13 +8,12 @@ import { LanguageProvider } from "@/components/language-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ludaro | Developer",
-  description: "Personal website of Ludaro, a German developer passionate about web technologies and gaming",
+  title: "Appercy | Developer",
+  description: "Personal website of Appercy, a German developer passionate about web technologies and gaming",
   icons: {
     icon: "/images/poro-logo.png",
     apple: "/images/poro-logo.png",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

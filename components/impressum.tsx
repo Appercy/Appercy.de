@@ -53,7 +53,7 @@ export default function Impressum() {
           <div>
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Kontakt</h3>
           <p>
-            E-Mail: ludaro@ludaro.de
+            E-Mail: Appercy@Appercy.de
           </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Impressum() {
           <div>
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Contact</h3>
           <p>
-            Email: ludaro@ludaro.de
+            Email: Appercy@Appercy.de
           </p>
           </div>
         </div>

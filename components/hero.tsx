@@ -44,13 +44,13 @@ export default function Hero() {
                 animate={{ rotate: [0, -10, 0, 10, 0] }}
                 transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5 }}
               >
-                <Image src="/images/poro-logo.png" alt="Ludaro Poro Logo" width={90} height={90} className="mr-4" />
+                <Image src="/images/poro-logo.png" alt="Appercy Poro Logo" width={90} height={90} className="mr-4" />
               </motion.div>
               <div>
                
                 <h2 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mt-2">{t("hero.greeting")}</h2>
                 <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white">
-                  <span className="text-purple-600 dark:text-purple-400">Ludaro</span>
+                  <span className="text-purple-600 dark:text-purple-400">Appercy</span>
                 </h1>
               </div>
             </div>

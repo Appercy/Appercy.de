@@ -3,6 +3,12 @@
 import { useLanguage } from "@/components/language-provider"
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import React from "react"
+import { SiJavascript, SiTypescript, SiPython, SiHtml5, SiCss3, SiLua, SiC, SiMysql, SiPostgresql, SiGnubash } from "react-icons/si"
+import { FaPhp, FaJava, FaReact, FaVuejs, FaGitAlt, FaDocker, FaLinux } from "react-icons/fa"
+import { VscTerminalPowershell, VscVscode } from "react-icons/vsc"
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
+import { PiFileCSharp } from "react-icons/pi"
 
 export default function Skills() {
   const { t } = useLanguage()
@@ -26,14 +32,13 @@ export default function Skills() {
         "Bash",
         "SQL",
         "Lua",
-        "C",
         'Java',
       ],
       icon: "💻",
     },
     {
       title: t("skills.frameworks"),
-      skills: ["React", "Vue", "Next.js", "Node.js", "Express", "Tailwind CSS"],
+      skills: ["React", "Vue", "Next.js", "Tailwind CSS"],
       icon: "🛠️",
     },
     {
@@ -43,7 +48,7 @@ export default function Skills() {
     },
     {
       title: t("skills.currently"),
-      skills: ["Vue.js", "Next.js"],
+      skills: ["Vue", "Next.js", "C"],
       icon: "📚",
     },
   ]
@@ -61,6 +66,55 @@ export default function Skills() {
   const item = {
     hidden: { opacity: 0, y: 20 },
     show: { opacity: 1, y: 0 },
+  }
+
+  // Define minimalistic SVG icons for each language
+  const languageIcons: Record<string, React.ReactElement> = {
+    JavaScript: <SiJavascript size={20} />,
+    TypeScript: <SiTypescript size={20} />,
+    Python: <SiPython size={20} />,
+    'C#': <PiFileCSharp size={20} />,
+    PHP: <FaPhp size={20} />,
+    HTML: <SiHtml5 size={20} />,
+    CSS: <SiCss3 size={20} />,
+    Lua: <SiLua size={20} />,
+    C: <SiC size={20} />,
+    SQL: <SiMysql size={20} />,
+    PostgreSQL: <SiPostgresql size={20} />,
+    Bash: <SiGnubash size={20} />,
+    PowerShell: <VscTerminalPowershell size={20} />,
+    Java: <FaJava size={20} />,
+    React: <FaReact size={20} />,
+    Vue: <FaVuejs size={20} />,
+    Git: <FaGitAlt size={20} />,
+    'VS Code': <VscVscode size={20} />,
+    Docker: <FaDocker size={20} />,
+    Linux: <FaLinux size={20} />,
+    'Next.js': <RiNextjsFill size={20} />,
+    'Tailwind CSS': <RiTailwindCssFill size={20} />,
+  }
+  const languageColors: Record<string, string> = {
+    JavaScript: '#F7DF1E',
+    TypeScript: '#3178C6',
+    Python: '#3776AB',
+    'C#': '#9B4F96',
+    PHP: '#777BB4',
+    HTML: '#E34F26',
+    CSS: '#1572B6',
+    Lua: '#000080',
+    C: '#A8B9CC',
+    SQL: '#4479A1',
+    PostgreSQL: '#336791',
+    Bash: '#4EAA25',
+    PowerShell: '#012456',
+    Java: '#f89820',
+    React: '#61DAFB',
+    Vue: '#42b883',
+    Git: '#F05032',
+    'VS Code': '#007ACC',
+    Docker: '#2496ED',
+    Linux: '#FCC624',
+    'Next.js': '#000',
   }
 
   return (
@@ -104,10 +158,11 @@ export default function Skills() {
                   <motion.span
                     key={skillIndex}
                     variants={item}
-                    className="px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm font-medium shadow-sm"
-                    whileHover={{ scale: 1.05, backgroundColor: "#f3e8ff" }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm font-medium shadow-sm flex items-center gap-2 transition-colors duration-300"
+                    whileHover={{ color: languageColors[skill] || '#7c3aed', backgroundColor: '#f3e8ff' }}
+                    transition={{ duration: 0.3, ease: 'easeInOut' }}
                   >
+                    {languageIcons[skill] || null}
                     {skill}
                   </motion.span>
                 ))}

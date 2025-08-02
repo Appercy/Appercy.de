@@ -34,7 +34,7 @@ export default function Footer() {
             <motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>
               <Image
                 src="/images/poro-logo.png"
-                alt="Ludaro Poro Logo"
+                alt="Appercy Poro Logo"
                 width={40}
                 height={40}
                 className="mr-4 cursor-pointer"

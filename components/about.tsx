@@ -16,7 +16,7 @@ export default function About() {
     { label: t("about.age"), value: "25" },
     { label: t("about.location"), value: "Germany" },
     { label: t("about.education"), value: t("about.education.value") },
-    { label: t("about.discord"), value: "@Ludaro" },
+    { label: t("about.discord"), value: "@appercycat" },
   ]
 
   return (
@@ -88,25 +88,25 @@ export default function About() {
                     >
                       <Image
                         src="/images/poro-logo.png"
-                        alt="Ludaro Poro Logo"
+                        alt="Appercy Poro Logo"
                         width={80}
                         height={80}
                         className="drop-shadow-lg"
                       />
                     </motion.div>
                   </div>
-                  <h3 className="text-2xl font-bold text-purple-600 dark:text-purple-400 mb-4">Ludaro</h3>
+                  <h3 className="text-2xl font-bold text-purple-600 dark:text-purple-400 mb-4">Appercy</h3>
                   <p className="text-gray-700 dark:text-gray-300 mb-4">
                     <span className="font-mono bg-gray-100 dark:bg-gray-700 px-3 py-2 rounded-lg text-sm">
-                      ludaro@ludaro.de
+                      Appercy@Appercy.de
                     </span>
                   </p>
                   <div className="mt-6 flex justify-center space-x-4">
                     <a
-                      href="https://github.com/ludaro1024"
+                      href="https://github.com/Appercy"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                      className="text-gray-500 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-300 transition-colors"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -125,10 +125,9 @@ export default function About() {
                       </svg>
                     </a>
                     <a
-                      href="https://discord.com/users/Ludaro"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                      className="text-gray-500 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-300 transition-colors"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
