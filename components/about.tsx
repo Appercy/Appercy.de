@@ -53,8 +53,14 @@ export default function About() {
               className="bg-gray-50 dark:bg-gray-900 p-6 rounded-xl shadow-sm mb-8"
             >
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-purple-600 dark:text-purple-400 font-bold text-lg">ZSX</span>
+                <div className="w-12 h-12 bg-white dark:bg-gray-800 rounded-lg flex items-center justify-center mr-4 overflow-hidden">
+                  <Image
+                    src="/images/zsx.png"
+                    alt="ZSX Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{t("about.zsx.title")}</h3>
@@ -63,7 +69,7 @@ export default function About() {
               </div>
               <p className="text-gray-700 dark:text-gray-300 text-sm mb-3">{t("about.zsx.description")}</p>
               <a
-                href="https://zsx.gg"
+                href="https://zsx-development.tebex.io/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-purple-600 dark:text-purple-400 hover:underline text-sm"

@@ -21,9 +21,9 @@ export default function Impressum() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10"
         >
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            {language === "de" ? "Impressum" : "Legal Notice"}
-          </h2>
+          <h1 className="hero__title text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            Appercy.de Impressum
+          </h1>
           <div className="w-20 h-1 bg-purple-600 dark:bg-purple-400 mx-auto"></div>
         </motion.div>
 
@@ -37,25 +37,18 @@ export default function Impressum() {
             <div className="space-y-6 text-gray-700 dark:text-gray-300">
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Angaben gemäß § 5 TMG</h3>
-                <p>
-                  Appercy
-                  <br />
-                  Musterstraße 123
-                  <br />
-                  12345 Musterstadt
-                  <br />
-                  Deutschland
-                </p>
+                <p><strong>Inhaber:</strong> Lukas Geißbauer</p>
+                <p><strong>Kontaktadresse:</strong> c/o RA Matutis</p>
+                <p><strong>Straße:</strong> Berliner Straße 57</p>
+                <p><strong>PLZ, Stadt:</strong> 14467 Potsdam</p>
+                <p><strong>Land:</strong> Deutschland</p>
+                <p><strong>E-Mail:</strong> appery@appercy.de</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Kontakt</h3>
                 <p>
-                  E-Mail: appercy@appercy.de
-                  <br />
-                  Discord: apperycat
-                  <br />
-                  GitHub: appercy
+                  E-Mail: appery@appercy.de
                 </p>
               </div>
 
@@ -79,25 +72,18 @@ export default function Impressum() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   Information according to § 5 TMG
                 </h3>
-                <p>
-                  Appercy
-                  <br />
-                  Sample Street 123
-                  <br />
-                  12345 Sample City
-                  <br />
-                  Germany
-                </p>
+                <p><strong>Owner:</strong> Lukas Geißbauer</p>
+                <p><strong>Contact Address:</strong> c/o RA Matutis</p>
+                <p><strong>Street:</strong> Berliner Straße 57</p>
+                <p><strong>ZIP Code, City:</strong> 14467 Potsdam</p>
+                <p><strong>Country:</strong> Germany</p>
+                <p><strong>E-Mail:</strong> appery@appercy.de</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Contact</h3>
                 <p>
-                  Email: appercy@appercy.de
-                  <br />
-                  Discord: apperycat
-                  <br />
-                  GitHub: appercy
+                  Email: appery@appercy.de
                 </p>
               </div>
 
